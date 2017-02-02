@@ -1,5 +1,13 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<h1>notes-ember</h1>
+<div class='ui container'>
+  <div class='ui two column divided grid'>
+    <div class='row'>
+      <div class='three wide column'>
+        {{note-list notes=notes}}
+      </div>
+      <div class='thirteen wide column'>
+        {{editor-tabs}}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.notes-body {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.notes-list {
+  border: 1px solid blue;
+}
+
+.notes-editor {
+  border: 1px solid red;
+}
